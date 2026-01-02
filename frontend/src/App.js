@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 const API_URL =
-  process.env.REACT_APP_BACKEND_URL || "https://task-tracker-backend-60bd.onrender.com:5000/api/tasks";
+  process.env.REACT_APP_BACKEND_URL || "https://task-tracker-backend-60bd.onrender.com/api/tasks";
 
 function App() {
   const [tasks, setTasks] = useState([]);

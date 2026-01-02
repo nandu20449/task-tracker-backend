@@ -8,7 +8,12 @@ import taskRoutes from "./taskRoutes.js";
 dotenv.config();
 const app = express();
 
-app.use(cors());
+const allowedOrigin = process.env.FRONTEND_URL || "https://task-tracker-backend-1-tfle.onrender.com";
+app.use(
+  cors({
+    origin: allowedOrigin,
+  })
+);
 app.use(express.json());
 
 app.use("/api/tasks", taskRoutes);
