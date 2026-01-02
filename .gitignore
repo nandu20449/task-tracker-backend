@@ -1,0 +1,82 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Build outputs
+build/
+dist/
+frontend/build/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Misc
+*.tgz
+npm-debug.log*
+
+# React / Create React App
+node_modules/
+.cache/
+build/
+frontend/build/
+
+# Backend / Node
+dist/
+logs/
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+
+# Testing / coverage
+coverage/
+
+# Lockfiles (optional - keep if you want reproducible installs)
+# package-lock.json
+# yarn.lock
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.tgz
+
+# Yarn PnP
+.pnp.cjs
+.pnp.js
+
+# Build caches
+.parcel-cache/
+.next/
+.turbo/
